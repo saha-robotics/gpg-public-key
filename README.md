@@ -2,7 +2,7 @@
 
 ## Get gpg key from git
 ```
-sudo curl -sSL https://raw.githubusercontent.com/saha-robotics/gpg-public-key/raw/main/saha-keyring.gpg -o /etc/apt/keyrings/saha-keyring.gpg
+sudo curl -sSL https://github.com/saha-robotics/gpg-public-key/raw/main/saha-keyring.key -o /etc/apt/keyrings/saha-keyring.gpg
 ```
 
 ## Add Url to source list
