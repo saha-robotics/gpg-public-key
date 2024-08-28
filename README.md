@@ -15,4 +15,8 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/saha-ke
 echo -e "Package: *\nPin: origin saha-apt.s3.eu-central-1.amazonaws.com\nPin-Priority: 1011" | sudo tee /etc/apt/preferences.d/saha
 ```
 
+## Update repository list
+```
+sudo apt update
+```
 
